@@ -8,7 +8,8 @@ web_dashboard_listen_address: 0.0.0.0
 web_dashboard_open_on_launch: false
 
 # 필수 키 (비어 있어도 반드시 필요)
-projects: []
+projects:
+  - /WorkSpace/repos/query-manager
 excluded_tools: []
 included_optional_tools: []
 fixed_tools: []

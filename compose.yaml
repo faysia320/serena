@@ -15,11 +15,12 @@ services:
 
     # 🔑 핵심: 모든 프로젝트 + 설정 영속화
     volumes:
-      # 모든 프로젝트 (여기 하나로 끝)
+      # 모든 프로젝트 (대소문자 경로 모두 마운트)
       - "C:/workspace/repos:/workspace"
+      - "C:/WorkSpace/repos:/WorkSpace"
 
       # Serena 설정/로그 영속화 (권장)
-      - "C:/workspace/repos/serena/config:/workspaces/serena/config"
+      - "C:/WorkSpace/repos/serena/config:/workspaces/serena/config"
 
     command:
       - >
