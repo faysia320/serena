@@ -257,3 +257,5 @@ zz-misc/
 vue-implementation/
 
 config/logs/
+config/language_servers/
+config/last_read_news_snippet_id.txt
