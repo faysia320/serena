@@ -14,6 +14,7 @@ projects:
   - /WorkSpace/Aleatorik-UI-Frontend
   - /WorkSpace/smart-report
   - /WorkSpace/rocket-expense
+  - /WorkSpace/rocket-session
 excluded_tools: []
 included_optional_tools: []
 fixed_tools: []
